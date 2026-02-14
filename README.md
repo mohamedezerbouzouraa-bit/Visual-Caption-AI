@@ -1,2 +1,2 @@
 # Visual-Caption-AI
-A Python desktop app using Tkinter and BLIP (Bootstrapped Language Image Pretraining) to generate captions for images. Select any image and get a descriptive, AI-generated caption instantly. Optimized for CPU with BLIP-base for faster inference.
+🚀 BLIP Image Captioner is a Python desktop app using Tkinter & BLIP 🤖 to generate descriptive captions for your images. Simply select an image 🖼️, and the AI will instantly create a meaningful caption ✨. Works on CPU & GPU 💻⚡.
