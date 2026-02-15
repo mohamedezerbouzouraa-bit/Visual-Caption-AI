@@ -17,7 +17,6 @@ model.to(device)
 model.eval()
 
 def generate_caption(image_path):
-    """Generate caption for a given image path."""
     from PIL import Image
     image = Image.open(image_path).convert("RGB")
     inputs = processor(image, return_tensors="pt").to(device)
