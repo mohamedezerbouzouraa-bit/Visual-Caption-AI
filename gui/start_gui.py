@@ -4,7 +4,6 @@ from gui.open_image import open_image
 from gui.components import create_label, create_button
 
 def start_gui():
-    """Start the Tkinter GUI for BLIP image captioning."""
     root = tk.Tk()
     root.title("BLIP Image Captioning")
 
