@@ -4,7 +4,6 @@ from PIL import Image, ImageTk
 from models.blip_model import generate_caption
 
 def open_image(panel, caption_label):
-    """Open an image, display it, and show caption."""
     file_path = filedialog.askopenfilename(
         filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")]
     )
