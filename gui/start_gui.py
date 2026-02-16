@@ -6,7 +6,6 @@ from gui.components import create_label, create_button
 def start_gui():
     root = tk.Tk()
     root.title("BLIP Image Captioning")
-
     bg_image = Image.open("assets/ezerbouz.jpg")
     bg_photo = ImageTk.PhotoImage(bg_image)
     bg_label = tk.Label(root, image=bg_photo)
