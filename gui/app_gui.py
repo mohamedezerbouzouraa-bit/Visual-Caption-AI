@@ -5,8 +5,7 @@ from models.blip_model import generate_caption
 
 def open_image(panel, caption_label):
     file_path = filedialog.askopenfilename(
-        filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")]
-    )
+        filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")])
     if file_path:
         image = Image.open(file_path)
         image.thumbnail((400, 400))
