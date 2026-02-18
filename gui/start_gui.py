@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 from gui.open_image import open_image
 from gui.components import create_label, create_button
-
+#the function below is the one that will be runned in main
 def start_gui():
     root = tk.Tk()
     root.title("BLIP Image Captioning")
