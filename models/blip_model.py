@@ -12,7 +12,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 model.eval()
 
-
 def generate_caption(image_path):
     from PIL import Image
     image = Image.open(image_path).convert("RGB")
