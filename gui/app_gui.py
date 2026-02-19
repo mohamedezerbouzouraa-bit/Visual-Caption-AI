@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
 from models.blip_model import generate_caption
-
 def open_image(panel, caption_label):
     file_path = filedialog.askopenfilename(
         filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp")])
