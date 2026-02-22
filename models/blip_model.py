@@ -1,6 +1,7 @@
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import torch
 
+
 HF_TOKEN =(the token code) 
 processor = BlipProcessor.from_pretrained(
     "Salesforce/blip-image-captioning-base",
